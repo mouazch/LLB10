@@ -1,4 +1,28 @@
 <<<<<<< HEAD
+package NewProject;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class testSelectionSort {
+
+        @Test
+        public void test() {
+
+                testPositive();
+                testNegative();
+                testMixed();
+                testDuplicates();
+        }
+
+        public testSelectionSort() {
+        	testPositive();
+            testNegative();
+            testMixed();
+            testDuplicates();
+        }
 private void testPositive() {
                int[] arr = new int[5];
                arr[0] = 8;
@@ -84,3 +108,4 @@ private void testMixed() {
 
         }
 >>>>>>> Second
+}
